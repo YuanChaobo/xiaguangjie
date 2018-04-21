@@ -1,0 +1,139 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding: 0;	
+}
+a{
+	text-decoration:none;
+}
+ul,li,dl,dt,dd{
+	list-style: none;
+}
+.sec-top{
+	font-size: 0px;
+	height: 1.4555rem;
+	border:none;
+	background: #fff;
+}
+
+/*关注的品牌*/
+.guanzhu,.gz-haodian {
+	padding:0px .25rem;
+}
+.guanzhu-h4{
+	font-size: .16rem;
+	color:#ccc;
+	height: .35rem;
+	line-height: .35rem;
+	margin-top: .1rem;
+}
+.guanzhu ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.guanzhu li{
+	float: left;
+	width: 23.875%;
+	margin-right: 1.5%;
+	font-size: 12px;
+	height: .86rem;
+	background: #dcdcdc;
+	margin-top: .12rem;
+}
+.guanzhu li:nth-child(4n){
+	margin-right: 0;
+}
+.guanzhu li img{
+	width: 100%;
+	height: 100%;
+}
+
+/*关注的好店*/
+.gz-haodian li{
+	height: .67rem;
+	position: relative;
+	margin:.16rem 0px;
+}
+.gz-haodian li a:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.gz-haodian li img{
+	float: left;
+	width: .67rem;
+	height: .67rem;
+	border-radius: 50%;
+}
+.gz-haodian li h3{
+	float: left;
+	font-size: .24rem;
+	height: .67rem;
+	line-height: .67rem;
+	margin-left: .24rem;
+	color: #a9a9a9;
+}
+.gz-haodian li i{
+	position: absolute;
+	right: 15px;
+	top: .26rem;
+	font-size: 15px;
+	color: #ccc;
+}
+/*为您推荐*/
+.gz-tuijian{
+
+}
+.gz-tuijian .gz-tj-bac{
+	height: .35rem;
+	background: #eee;
+	font-size: 12px;
+	border:1px solid #eee;
+	position: relative;
+}
+.gz-tuijian .gz-tj-bac .gz-heng{
+	margin:.18rem 2.5rem;
+	height: 0px;
+	font-size: 0px;
+	border:1px solid #cecece;
+}
+.gz-tuijian .gz-tj-bac  span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 12px;
+	background:#eee;
+	padding:0px 8px;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+}
+.gz-tuijian ul{
+	padding:.23rem;
+}
+.gz-tuijian ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.gz-tuijian ul li{
+	float: left;
+	width: 50%;
+	height: 3.16rem;
+	margin-bottom: .12rem;
+}
+.gz-tuijian ul .li-child:nth-child(odd){
+	margin-right: 3px;
+	height: 100%;
+	background: #ccc;
+}
+.gz-tuijian ul li:nth-child(even) .li-child{
+	margin-right: 0px;
+	margin-left: 3px;
+}
+.gz-tuijian ul .li-child img{
+	width: 100%;
+	height: 100%;
+}

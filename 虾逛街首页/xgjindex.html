@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+
+<head>
+	<title>虾逛街</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/swiper-4.2.2.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="./css/xgjindex.css">
+	<!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+	<script type="text/javascript">
+		window.onload = function(){
+		};
+		   getRem(720,100)
+		window.onresize = function(){
+		    getRem(720,100)
+		};
+		function getRem(pwidth,prem){
+		    var html = document.getElementsByTagName("html")[0];
+		    var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+		    html.style.fontSize = oWidth/pwidth*prem + "px";
+		}
+
+	</script>
+	<!-- 导航搜索 -->
+	<div class="container container-header">
+		<div class="row seach-row">
+			<div class="swiper-container banner">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">Slide 1</div>
+			        <div class="swiper-slide">Slide 2</div>
+			        <div class="swiper-slide">Slide 3</div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+			<!-- 搜索框 -->
+			<div class="search">
+				<div>
+					<!-- 扫一扫 -->
+					<div class="search-sao">
+						<i class="iconfont icon-saomiao"></i>
+						<p>扫啊扫</p>
+					</div>
+					<div class="serach-sou">
+						<span>
+							<i class="iconfont icon-sousuo"></i>
+						</span>
+						<input type="text" name="" placeholder="母婴超级品类目 ">
+					</div>
+					<!-- 消息 -->
+					<div class="serach-message">
+						<span>
+							<i class="iconfont icon-xiaoxi"></i>
+						</span>
+						<p>消息</p>
+						<span class="badge serach-badges">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- nav -->
+	<div class="container nav-container">
+		<div class="row nav-row-one">
+			<div class="row-img">
+				<img src="./images/baobao.jpg">
+				
+			</div>
+		</div>
+		<!-- 列表 -->
+		<div class="row-c">
+			<div class="row-ca">
+				<img src="./images/jifen.jpg" class="center-block">
+				<p>积分中心</p>
+			</div>
+			<div class="row-ca">
+				<img class="center-block" src="./images/jifen.jpg">
+				<p>限时折扣</p>
+			</div>
+			<div class="row-ca">
+				<img class="content-block" src="./images/jifen.jpg">
+				<p>品牌专区</p>
+			</div>
+			<div class="row-ca">
+				<img class="content-block" src="./images/jifen.jpg">
+				<p>砍价免费拿</p>
+			</div>
+			<div class="row-ca">
+				<img class="content-block" src="./images/jifen.jpg">
+				<p>白拿</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<img class="content-block row-block-img" src="./images/lingjifen.jpg">
+			<div class="row-groom">
+
+				<div class="row-tuijian">
+					<img class="tuijian-img" src="./images/xgjlogo.jpg">
+					<div class="row-tuijian-i">
+						<span class='row-label'>推荐</span>
+						<p>12345678913245679111111111111111111111111111111</p>
+						<span class="row-spana">更多</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 虾逛街秒杀 -->
+		<div class="row seckill">
+			<div class="seckill-time">
+				<div class="seckill-miao">
+					<span class="miao-span">虾逛街秒杀</span>
+					<label>
+						<span>9点场</span>
+						<code>01</code> : <code>02</code> : <code>03</code>
+					</label>
+				</div>
+				<span class="lun-seckill">虾逛街轮番秒杀>></span>
+			</div>
+			<div class="swiper-container case">
+				<div class="swiper-wrapper ">
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/mayou.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/you.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/mayou.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/you.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/mayou.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/you.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/mayou.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/you.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/mayou.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="content-block" src="./images/you.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			         <div class="swiper-slide">
+			        	<img class="content-block" src="./images/mayou.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			         <div class="swiper-slide">
+			        	<img class="content-block" src="./images/mayou.jpg">
+			        	<div class="slide-money">
+			        		<p class="new-money">
+			        			<i>￥</i><span>19.9</span>
+			        		</p>
+			        		<p class="before-money">
+			        			<i>￥</i>
+			        			<span>65.00</span>
+			        		</p>
+			        	</div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<!-- 店铺街 -->
+		<div class="row shop-row">
+			<div class="shop-street">
+				店铺街
+			</div>
+			<div class="shop-left">
+				dianpu文字
+			</div>
+			<div class="shop-right">
+				<ul>
+					<li>
+						1
+					</li>
+					<li>
+						2
+					</li>
+					<li>
+						3
+					</li>
+					<li>
+						4
+					</li>
+					<li>
+						5
+					</li>
+					<li>
+						6
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<!-- 数码科技 -->
+		<div class="mumber-scie">
+			<div class="scie-header">
+				数码科技
+			</div>
+			<div class="all-style">
+				<div class="allstyle-left">
+					1
+				</div>
+				<div class="allstyle-right">
+					<div class="right-left">
+						<div  class="r-left-top">
+							12
+						</div>
+						<div class="r-left-bottom">
+							13
+						</div>
+					</div>
+					<div class="right-right">
+						6
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 没装各户 -->
+		<div class="meizhuang-gh">
+			<div class="gh-header">
+				美妆个户
+			</div>
+			<div class="all-style">
+				<div class="allstyle-left">
+					1
+				</div>
+				<div class="allstyle-right">
+					<div class="right-left">
+						<div  class="r-left-top">
+							12
+						</div>
+						<div class="r-left-bottom">
+							13
+						</div>
+					</div>
+					<div class="right-right">
+						6
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 为您推荐 -->
+		<div class="row tui">
+			<div class="recommend">
+				<div class="row-hoveng">
+					
+				</div>
+				<span>为您推荐</span>
+			</div>
+			<div class="col-sm-6 col-xs-6 col-md-6 recom-img">
+				<img src="./images/tuoxie.jpg">
+			</div>
+			<div class="col-sm-6 col-xs-6 col-md-6 recom-img">
+				<img src="./images/luodigan.jpg">
+			</div>
+			<div class="col-sm-6 col-xs-6 col-md-6 recom-img">
+				<img src="./images/luodigan.jpg">
+			</div>
+			<div class="col-sm-6 col-xs-6 col-md-6 recom-img">
+				<img src="./images/luodigan.jpg">
+			</div>
+			<div class="col-sm-6 col-xs-6 col-md-6 recom-img">
+				<img src="./images/luodigan.jpg">
+			</div>
+			<div class="col-sm-6 col-xs-6 col-md-6 recom-img">
+				<img src="./images/luodigan.jpg">
+			</div>
+			<div class="col-sm-6 col-xs-6 col-md-6 recom-img">
+				<img src="./images/luodigan.jpg">
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./lib/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./lib/swiper-4.2.2.min.js"></script>
+	<script>        
+	  var mySwiper = new Swiper ('.banner', {
+	    direction: 'horizontal',
+	    loop: true,
+	    autoplay:true,
+	    pagination: {
+	      el: '.swiper-pagination',
+	    },
+
+	  })        
+    var swiper = new Swiper('.case', {
+      direction: 'horizontal',
+      spaceBetween: 20,
+      slidesPerView: 'auto',
+  
+    });
+  
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+@charset 'utf-8';
+/*我的关注*/
+
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background: #f1f1f1;
+}
+.sec-top{
+	font-size: 0px;
+	height: 1.4555rem;
+	border:none;
+	background: #fff;
+}
+.my-fllow {
+	position: relative;
+	width: 100%;
+	height: .45rem;
+	line-height: .42rem;
+	background: #fff;
+}
+.my-fllow  p{
+	font-size: .16rem;
+}
+.my-fllow  p span{
+	margin-left: 13px;
+}
+.my-fllow  label{
+	float: right;
+	margin-right: 40px;
+}
+.my-fllow img{
+	display: inline-block;
+	width: .37rem;
+	height: .37rem;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.my-fllow .iyou{
+	position: absolute;
+	right: 15px;
+	top: .08rem;
+	vertical-align: middle;
+	transform: scale(0.70);
+	transform-origin:0 0;
+	margin-bottom: 0px;
+	 -ms-transform: scale(0.70);         /* IE 9 */
+    -ms-transform-origin:0 0;       /* IE 9 */
+
+    -webkit-transform: scale(0.70); /* Safari 和 Chrome */
+    -webkit-transform-origin:0 0;   /* Safari 和 Chrome */
+
+    -moz-transform: scale(0.70);        /* Firefox */
+    -moz-transform-origin:0 0;      /* Firefox */
+
+    -o-transform: scale(0.70);      /* Opera */
+    -o-transform-origin:0 0; 
+}
+/*好店推荐*/
+.good-stroe-top{
+	position: relative;
+	height: .37rem;
+	background:#f1f1f1;
+	border:1px solid #f1f1f1;
+}
+.good-stroe-top div{
+	margin:.18rem 2.5rem;
+	height: 0px;
+	border:1px solid #cecece;
+}
+.good-stroe-top  span{
+	position: absolute;
+	background: #f1f1f1;
+	left: 50%;
+	top: 50%;
+	padding:0 8px;
+	font-size: 12px;
+	transform: scale(0.90);
+	transform-origin:0 0;
+	margin-bottom: 0px;
+	 -ms-transform: scale(0.90);   
+    -ms-transform-origin:0 0;       
+    -webkit-transform: scale(0.90); 
+    -webkit-transform-origin:0 0;  
+    -moz-transform: scale(0.90);     
+    -moz-transform-origin:0 0;      
+    -o-transform: scale(0.90);     
+    -o-transform-origin:0 0; 
+    transform: translate(-50%,-50%);
+}
+.good-stroe-information ul{
+	background:#fff;
+	border:1px solid transparent;
+	background: #f1f1f1;
+}
+.good-stroe-information ul li{
+	background: #fff;
+	margin-bottom: 13px;
+	font-size: 12px;
+	border-bottom: 1px solid transparent;
+}
+.good-stroe-information ul li:last-child{
+	margin-bottom: 0px;
+}
+.good-stroe-information ul li .li-top{
+	padding: 0 12px;
+	height: .84rem;
+	position: relative;
+	padding:0 -12px;
+	border-bottom: 1px solid #ececec
+}
+.good-stroe-information ul li .li-top .good-stroe-logo{
+	float: left;
+	width: 1.32rem;
+	height: .61rem;
+	background: red;
+	margin-top: .2rem;
+}
+.good-stroe-information ul li .li-top .good-stroe-logo img{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.good-stroe-information li .good-stroe-xinxi{
+	float: left;
+	margin-left: .18rem;
+	margin-top: .17rem;
+}
+.good-stroe-information li .good-stroe-xinxi h3{
+	font-size: .28rem;
+}
+.good-stroe-information li .good-stroe-xinxi  p{
+	font-size: .17rem;
+}
+.good-stroe-information li .li-top .li-top-span{
+	position: absolute;
+	right: 25px;
+	top: .24rem;
+	font-size: .2rem;
+	padding:1px 5px;
+	color: #f59fa5;
+	border:1px solid #febbbb;
+	border-radius: 3px;
+}
+.good-stroe-information li .good-stroe-goods{
+	padding: 0 12px;
+	margin-top: 7px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.good-stroe-information li .good-stroe-goods:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.good-stroe-information li .good-stroe-goods>div{
+	float: left;
+	width: 31%;
+	height: 2.1rem;
+	margin-right: 3.5%;
+	box-sizing: border-box;
+	border:1px solid #f8f8f8;
+}
+.good-stroe-information li .good-stroe-goods>div:nth-child(3n){
+	margin-right: 0px;
+}
+
+/*品牌推荐*/
+.groom-brand{
+	padding: .16rem .3rem;
+	background: #fff;
+}
+.groom-brand ul{
+	border-top: 1px solid #c7c6c6;
+	border-left: 1px solid #c7c6c6;
+	box-sizing: border-box;
+}
+.groom-brand ul:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+}
+.groom-brand ul li{
+	font-size: 12px;
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	height: .95rem;
+	border-right: 1px solid #c7c6c6;
+	border-bottom: 1px solid #c7c6c6;
+}
+
+/*底部*/
+.good-stroe-footer {
+	font-size:12px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.good-stroe-footer p span{
+	display: inline-block;
+	transform: rotate(-90deg);
+}

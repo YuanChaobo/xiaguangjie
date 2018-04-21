@@ -1,0 +1,249 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.number{
+	    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*登录*/
+.log-in{
+	height: 3.2rem;
+	padding:0px .26rem;
+	background: #ff4b4a;
+	background: linear-gradient(to bottom right,#ff4b4a,#fe8778);
+	font-size: .3rem;
+	border-top: .1px solid #ff4b4a;
+}
+
+.log-in .log-denglu{
+	margin-top: .82rem;
+}
+.log-in .log-denglu:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.log-in .denglu-left{
+	float: left;
+	width: 1.58rem;
+}
+.log-in .denglu-left img{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.log-in .denglu-right{
+	float: left;
+	width: 4.65rem;
+	margin-left: .42rem;
+}
+.log-in .denglu-right-a:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.log-in .denglu-right .right-deng{
+	float: left;
+	color: #fff;
+}
+.log-in .denglu-right .right-deng h3{
+	font-weight: 400;
+	line-height: .53rem;
+	letter-spacing: 3px;
+}
+.log-in .denglu-right .right-deng p{
+	font-size: .22rem;
+	line-height: .34rem;
+}
+.log-in .denglu-right .right-she{
+	float: right;
+	font-size: .41rem;
+	color: #fff;
+}
+.log-in .denglu-right .right-she i{
+	font-size: .41rem;
+	margin-left: .4rem;
+}
+.log-in .denglu-right-b{
+	margin-top: .7rem;
+	margin-left: -0.3rem;
+}
+.log-in .denglu-right-b ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.log-in .denglu-right-b li{
+	float: left;
+	color: #fff;
+	font-size: .23rem;
+	text-align: center;
+	width: 1.05rem;
+}
+/*我的订单*/
+.order-form{
+	font-size: .20rem;
+	height: .4rem;
+	border-bottom: 1px solid #ededed;
+}
+.order-form p{
+	color: #6f6f6f;
+}
+.order-form  a{
+	display: block;
+	padding:0 .28rem;
+	line-height: .4rem;
+	cursor: pointer;
+}
+.order-form  a:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.order-form .order-my{
+	float: left;
+}
+.order-form .order-all{
+	float: right;
+}
+
+/*信息列表*/
+.xin-liner{
+
+}
+.xin-liner ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.xin-liner li{
+	box-sizing: border-box;
+	float: left;
+	width: 20%;
+	text-align: center;
+	font-size: 12px;
+	margin-top:.39rem;
+	padding-bottom: 10px;
+}
+.xin-liner li a{
+	color: #909090;
+	display: block;
+
+	
+}
+.xin-liner li i{
+	font-size: .42rem;
+}
+.xin-liner li p{
+	font-size: .21rem;
+	color: #909090;
+}
+.xin-liner li:last-child{
+	border-left: 1px solid #909090;
+	position: relative;
+}
+.xin-liner li:last-child:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background: #fff;
+	top: 50%;
+	left: -6px;
+	border-top:1px solid #909090;
+	border-right:1px solid #909090;
+	transform: translate(0,-50%) rotate(45deg);
+}
+/*关注记录*/
+.guanzhu-jilu{
+	margin-top: .4rem;
+}
+.guanzhu-jilu:after{
+	content: '';
+	display:block;
+	clear: both;
+}
+.guanzhu-jilu li{
+	float: left;
+	width: 25%;
+	font-size: .20rem;
+	color: #acacac;
+	text-align: center;
+}
+.guanzhu-jilu .number{
+	color: #ff2957;
+	font-size: .27rem;
+}
+.guanzhu-jilu .jilu-text{
+	margin-top: .1rem;
+}
+
+/*活动海报*/
+.activity-hb{
+	height: 2.26rem;
+	margin-top: .45rem;
+}
+.activity-hb img{
+	width: 100%;
+	height: 100%;
+}
+/*为你推荐*/
+.tuijian-you{
+	height: .6rem;
+	background: #eee;
+	border:1px solid #eee;
+	position: relative;
+	font-size: 12px;
+	margin-top: .2rem;
+	margin-bottom: .1rem;
+}
+.tuijian-you div{
+	height: 0px;
+	font-size: 0px;
+	border-bottom: 1px solid #b9b9b9;
+	margin:.3rem 2.2rem;
+}
+.tuijian-you span{
+	font-size: .24rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #eee;
+	padding:0 5px;
+	transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+.tuijian ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.tuijian ul li{
+	float: left;
+	width: 50%;
+	height: 4.5rem;
+	margin-bottom: 4px;
+}
+.tuijian ul li img{
+	width: 100%;
+	height: auto;
+}
+.tuijian ul li:nth-child(odd) div{
+	margin-right: 2px;
+	background: #eee;
+	height: 100%;
+}
+.tuijian ul li:nth-child(even) div{
+	margin-left: 2px;
+	background: #eee;
+	height: 100%;
+}

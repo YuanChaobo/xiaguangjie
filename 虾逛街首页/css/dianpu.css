@@ -1,0 +1,76 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: #f1f1f1;
+}
+a{
+	text-decoration:none;
+}
+ul,li,dl,dt,dd{
+	list-style: none;
+}
+.sec-top{
+	font-size: 0px;
+	height: 1.4555rem;
+	border:none;
+	background: #fff;
+}
+.dianpu-img{
+	height: 2.5rem;
+}
+.dianpu-img img{
+	width: 100%;
+	height: 100%;
+}
+/*推荐品牌*/
+.dianpu-tuijian-brand{
+	background: #fff;
+	margin: .16rem .12rem 0px;
+}
+.dianpu-tuijian-brand h3{
+	font-size: .16rem;
+	padding-left: 9px;
+	height: .4rem;
+	line-height: .6rem;
+}
+.dianpu-tuijian-brand ul{
+	padding:0 9px;
+	box-sizing: border-box;
+	padding-bottom: .22rem;
+
+}
+.dianpu-tuijian-brand ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.dianpu-tuijian-brand ul li{
+	text-align: center;
+	box-sizing: border-box;
+	font-size: .12rem;
+	float: left;
+	width: 17%;
+	height: 1.13rem;
+	margin-right: 3.75%;
+	border-radius: 50%;
+	border:1px solid #f7f7f7;
+	overflow: hidden;
+	margin-top: .22rem;
+}
+.dianpu-tuijian-brand ul li:nth-child(5n){
+	margin-right: 0px;
+}
+.dianpu-tuijian-brand ul li  img{
+	width: 100%;
+	border-radius: 50%;
+}
+.fffoter{
+	height: 15px;
+	font-size: 0px;
+	color: #fff;
+	border:none;
+	overflow: none;
+}

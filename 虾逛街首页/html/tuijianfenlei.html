@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+<head>
+	<title>推荐分类</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=no">
+		<!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+     <![endif]-->
+     <link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+     <link rel="stylesheet" type="text/css" href="../css/tuijianfenlei.css">
+</head>
+<body>
+	<script type="text/javascript">
+		window.onload = function(){
+		};
+		   getRem(720,100)
+		window.onresize = function(){
+		    getRem(720,100)
+		};
+		function getRem(pwidth,prem){
+		    var html = document.getElementsByTagName("html")[0];
+		    var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+		    html.style.fontSize = oWidth/pwidth*prem + "px";
+		}
+	</script>
+
+	<header>
+		<div class="header">
+			<div class="head-inp">
+				<i class="iconfont icon-saomiao saomiao"></i>
+				<div class="so-input">
+					<i class="iconfont icon-sousuo"></i>
+					<input type="text" name="text" placeholder="输入要搜索商品的名称">
+				</div>
+				<i class="iconfont icon-xiaoxi xiaoxi"></i>
+			</div>
+		</div>
+	</header>
+	<!-- 内容 -->
+	<div class="content">
+		<!-- 左侧列表 -->
+		<div class="content-left">
+			<ul>
+				<li class="border-right-none">
+					<span>推荐分类</span>
+				</li>
+				<li>
+					<span>女装/内衣</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+				<li>
+					<span>女鞋/男鞋/箱包</span>
+				</li>
+			</ul>
+		</div>
+		<div class="content-right">
+			右侧不动
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="../lib/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			// var bodyhe = $('body').clientHeight;
+			// var bodyhe = document.getElementsByTagName('body')[0].screen.clientHeight;
+			var bodyhe = window.screen.height;
+			console.log(bodyhe)
+			// $('.content').height(bodyhe);
+		})
+	</script>
+</html>
