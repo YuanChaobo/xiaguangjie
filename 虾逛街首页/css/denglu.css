@@ -39,10 +39,39 @@ ul,li{
 	height: auto;
 	border-radius: 50%;
 }
+/*登录前*/
+.log-in .denglu-before-right{
+	position: relative;
+	float: left;
+	width: 4.65rem;
+	height: 1.58rem;
+	line-height: 1.58rem;
+	margin-left: .42rem;
+	font-size: 12px;
+	/*display: none;*/
+}
+.log-in .denglu-before-right h4{
+	font-size: .3rem;
+	color: #fff;
+	font-weight: 400;
+	float: left;
+}
+.log-in .denglu-before-right h4 i{
+	margin-left: 0px;
+	font-size: .3rem;
+}
+
+.log-in .denglu-before-right .iconfont-she{
+	float: right;
+	height: 100%;
+	line-height: 1rem;
+}
+/*登录后*/
 .log-in .denglu-right{
 	float: left;
 	width: 4.65rem;
 	margin-left: .42rem;
+	display: none;
 }
 .log-in .denglu-right-a:after{
 	content: '';
@@ -65,11 +94,11 @@ ul,li{
 .log-in .denglu-right .right-she{
 	float: right;
 	font-size: .41rem;
-	color: #fff;
 }
-.log-in .denglu-right .right-she i{
+.log-in  i{
 	font-size: .41rem;
 	margin-left: .4rem;
+	color: #fff;
 }
 .log-in .denglu-right-b{
 	margin-top: .7rem;
