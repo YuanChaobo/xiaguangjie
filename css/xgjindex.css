@@ -1,0 +1,453 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+input{
+	border:none;
+	outline: none;
+}
+.container-header{
+	height: 4rem;
+	background: pink;
+}
+.seach-row{
+}
+.banner{
+	width: 100%;
+	height: 4rem;
+}
+.search{
+	width: 100%;
+	height: .9rem;
+	position: absolute;
+	top: .5rem;
+	left: 0px;
+	z-index: 100;
+}
+.search >div{
+	margin:0px .21rem;
+}
+.search .search-sao{
+	position: absolute;
+	left: .2rem;
+	top: -3px;
+	text-align: center;
+	font-size: .18rem;
+	color: #fff;
+}
+.search .search-sao i{
+	font-size: .36rem;
+	color: #fff;
+}
+.search .search-sao p{
+	font-size: 12px;
+	letter-spacing: 1px;
+	transform: scale(0.90);
+    transform-origin:0 0;
+	margin-bottom: 0px;
+	 -ms-transform: scale(0.90);         /* IE 9 */
+    -ms-transform-origin:0 0;       /* IE 9 */
+
+    -webkit-transform: scale(0.90); /* Safari 和 Chrome */
+    -webkit-transform-origin:0 0;   /* Safari 和 Chrome */
+
+    -moz-transform: scale(0.90);        /* Firefox */
+    -moz-transform-origin:0 0;      /* Firefox */
+
+    -o-transform: scale(0.90);      /* Opera */
+    -o-transform-origin:0 0; 
+}
+
+.search .serach-sou{
+	width: 5rem;
+	height: .6rem;
+	line-height: .6rem;
+	background: #fff;
+	border-radius: .4rem;
+	margin:0 auto;
+}
+.search .serach-sou  span{
+	margin-left: .25rem;
+}
+.search .serach-sou input{
+	height: .45rem;
+	width: 4rem;
+}
+.search .serach-message{
+	position: absolute;
+	width: 0.7rem;
+	right: .2rem;
+	top: -5px;
+	text-align: center;
+	color: #fff;
+}
+.search .serach-message i{
+	font-size: .4rem;
+	color: #fff;
+}
+.search .serach-message p{
+	font-size: 12px;
+	letter-spacing: 2px;
+	transform: scale(0.90);
+	 transform-origin:0 0;
+	  -ms-transform: scale(0.90);         /* IE 9 */
+    -ms-transform-origin:0 0;       /* IE 9 */
+
+    -webkit-transform: scale(0.90); /* Safari 和 Chrome */
+    -webkit-transform-origin:0 0;   /* Safari 和 Chrome */
+
+    -moz-transform: scale(0.90);        /* Firefox */
+    -moz-transform-origin:0 0;      /* Firefox */
+
+    -o-transform: scale(0.90);      /* Opera */
+    -o-transform-origin:0 0; 
+	margin-top: -3px;
+	margin-bottom: 0px;
+}
+.search .serach-message .serach-badges{
+	background-color: red;
+	position: absolute;
+	top: -3px;
+}
+/*nav*/
+.nav-container{
+/*	padding-left: 8px;
+	padding-right: 8px;*/
+}
+.nav-row-one{
+	height: 2rem;
+}
+
+.nav-row-one .row-img img{
+	width: 100%;
+	height: 2rem;
+}
+.row-c{
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: .17rem;
+}
+.row-c:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.row-ca{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.row-ca p{
+	font-size: .17rem;
+	margin-top: .12rem;
+	color: #6d6d6d;
+}
+.row-ca img{
+	width: 0.728rem;
+}
+.row-block-img{
+	width: 100%;
+	height: 2.24rem;
+}
+.row-groom{
+	background: #e7e7e7;
+	height: 1.2rem;
+	border-top: 1px solid transparent;
+}
+
+.row-tuijian{
+	height: .5rem;
+	line-height: .5rem;
+	margin:.23rem .18rem 0;
+	background:#fff;
+	border-radius: .3rem;
+}
+.row-tuijian .tuijian-img{
+	float: left;
+	width: .8rem;
+	height: .23rem;
+	margin-top: .13rem;
+	margin-left: .2rem;
+}
+.row-tuijian  .row-tuijian-i{
+	float: left;
+	font-size: 12px;
+	margin-left: .11rem;
+}	
+.row-tuijian  .row-tuijian-i .row-label{
+	float: left;
+	color: red;
+}
+.row-tuijian  .row-tuijian-i p{
+	float: left;
+	width: 4rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-left: .2rem;
+}
+.row-tuijian  .row-tuijian-i  .row-spana{
+	float: right;
+	height: .24rem;
+	line-height: .24rem;
+	margin-top: .14rem;
+	margin-right: .2rem;
+	padding-left: .2rem;
+	margin-left: .1rem;
+	border-left: 1px solid #bebebe;
+
+}
+/*虾逛街秒杀*/
+.seckill {
+	border-bottom: 1px solid #f5f5f5;
+}
+.seckill-time{
+	margin-left: 12px;
+	margin-right: 10px;
+	line-height: .46rem;
+	margin-top: 0.1rem;
+}
+.seckill-time:after{
+	content:'';
+	display:block;
+	clear: both;
+}
+.seckill-time .seckill-miao{
+	display: inline-block;
+}
+.seckill-time .seckill-miao .miao-span{
+	content: url('../images/xgjskill.jpg');
+	width: 1.3rem;
+	height: .23rem;
+    font-family: "-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue","MIcrosoft YaHei",sans-serif!important;
+}
+
+.seckill label{
+	line-height: .21rem;
+
+}
+.seckill label span{
+	margin-left: .15rem;
+	font-size: 13px;
+}
+.seckill label code{
+	background: #f77c82;
+	color: #fff;
+}
+.seckill .lun-seckill{
+	float: right;
+	color: #ec6464;
+	font-size: 9px;
+	transform: scale(0.90);
+	 transform-origin:0 0;
+	 -ms-transform: scale(0.90);         /* IE 9 */
+    -ms-transform-origin:0 0;       /* IE 9 */
+
+    -webkit-transform: scale(0.90); /* Safari 和 Chrome */
+    -webkit-transform-origin:0 0;   /* Safari 和 Chrome */
+
+    -moz-transform: scale(0.90);        /* Firefox */
+    -moz-transform-origin:0 0;      /* Firefox */
+
+    -o-transform: scale(0.90);      /* Opera */
+    -o-transform-origin:0 0; 
+
+}
+
+.case {
+	margin-top: 12px;
+}
+.case .swiper-wrapper{
+	margin-left: 15px;
+}
+.case .swiper-wrapper .swiper-slide{
+	width: auto !important;
+	margin-bottom: 5px;
+}
+.case .swiper-wrapper .swiper-slide:last-child{
+	margin-right: 30px;
+}
+.case .swiper-wrapper img{
+	height: 1.3rem;
+}
+.case .swiper-wrapper .slide-money{
+	text-align: center;
+}
+.case .swiper-wrapper .slide-money i{
+	font-style: normal;
+}
+.case .swiper-wrapper .new-money{
+	font-size: 18px;
+	color: #f23d3e;
+	margin-bottom:0px;
+}
+.case .swiper-wrapper .new-money i{
+	font-size: 12px;
+}
+.case .swiper-wrapper .before-money{
+	font-size: 12px;
+	margin-bottom: 0px;
+	text-decoration: line-through;
+}
+
+.shop-street {
+	content: url('../images/xgjlogo.jpg');
+	width: 1rem;
+	height: .23rem;
+	margin:.25rem 0px .1rem;
+}
+.shop-row{
+	margin: 0px -9px;
+}
+.shop-row .colsmx{
+	padding:0;
+	height: 3.5rem;
+	background:red;
+}
+
+.shop-row  .shop-left{
+	float: left;
+	width: 28%;
+	height: 1.76rem;
+	background:#c1c1c1;
+	overflow: hidden;
+}
+.shop-row  .shop-left img{
+	width: 100%;
+	height: 100%;
+
+}
+ul,li{
+	list-style: none;
+}
+.shop-row .shop-right{
+	float: left;
+	width: 70%;
+	margin-left: 2%;
+}
+.shop-row .shop-right ul{
+	margin-bottom: 0px;
+	height: 1.76rem;
+	overflow: hidden;
+}
+
+.shop-row .shop-right li{
+	float: left;
+	width: 32%;
+	height: .83rem;
+	margin-right: 2%;
+	background:blue;
+	margin-bottom: .1rem;
+	color: red;
+	overflow: hidden;
+}
+.shop-row .shop-right li img{
+	width: 100%;
+	height: 100%;
+}
+.shop-row .shop-right li:nth-child(3n){
+	margin:0px;
+}
+/*数码科技*/
+.mumber-scie .scie-header{
+	text-align: center;
+	content:url('../images/shumakeji.jpg');
+	margin:0 auto;
+	width: 2.7rem;
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+
+.all-style{
+	margin: 0 -9px;
+}
+.all-style:after{
+ content: '';
+ display: block;
+ clear: both;
+}
+.allstyle-left{
+	float: left;
+	width: 43%;
+	height: 2.7rem;
+	background-color:pink;
+}
+.allstyle-right{
+	float: left;
+	width: 55%;
+	margin-left: 2%;
+	height: 2.7rem;
+}
+.allstyle-right .right-left{
+	float: left;
+	width: 54%;
+	margin-right: 2%;
+	height: 100%;
+}
+.allstyle-right .right-left>div{
+	height: 48%;
+	background: pink;
+}
+.allstyle-right .right-left .r-left-top{
+	margin-bottom: 5%;
+}
+.allstyle-right .right-right{
+	float: left;
+	width: 44%;
+	height: 100%;
+	background: pink;
+}
+
+/*美妆个户*/
+.meizhuang-gh{
+	border-bottom: 1px solid transparent;
+}
+.meizhuang-gh .gh-header{
+	content: url('../images/shumakeji.jpg');
+	text-align: center;
+	margin:0 auto;
+	width: 2.7rem;
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+
+/*为您推荐*/
+.recommend {
+	position: relative;
+	width: 100%;
+	height: .83rem;
+	line-height: .83rem;
+	text-align: center;
+	border:1px solid transparent;
+}
+.recommend .row-hoveng{
+	margin:.42rem 33%;
+	height: 0px;
+	border:1px solid #767676;
+}
+.recommend span{
+	font-size: 12px;
+	background:#fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding:0px 5px;
+	transform: translate(-50%,-50%);
+	z-index: 100;
+}
+.tui .recom-img{
+	padding:0;
+	height: 3.55rem;
+	margin-bottom: 6px;
+}
+.tui .recom-img:nth-child(even){
+	padding-right: 3px;
+}
+.tui .recom-img:nth-child(odd){   
+	padding-left: 3px;
+}
+.recom-img img{
+	width: 100%;
+	height: 100%;
+}
