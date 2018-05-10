@@ -1,0 +1,336 @@
+@charset 'utf-8';
+*{margin:0;padding:0;}ul,li,dl,dt,dd{list-style:none;}a{text-decoration:none;}
+body{ background: #eeeeee;}
+header{
+	padding:0 .3rem;
+	height: 3rem;
+	background: pink;
+}
+.head {
+	border:1px solid transparent;
+}
+.head-hs {
+	height: auto;
+	position: relative;
+}
+.head-hs  span{
+	vertical-align: 50%;
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	font-size: 50px;
+	color: #fff;
+	transform: translate(0,-50%);
+
+}
+.head h4{
+	content: url('../images/xiamiaosha.png');
+	font-size: .82rem;
+	width: 4.39rem;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 1rem;
+}
+/*活动时间*/
+.activity-time{
+	margin-top: .36rem;
+}
+.activity-time ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.activity-time li{
+	float: left;
+	width: 20%;
+	color: #fff;
+	text-align: center;
+}
+.activity-time li .time{
+	font-size: .28rem;
+	font-weight: 700;
+}
+.activity-time li .activity{
+	font-size: .2rem;
+}
+.acitv{
+		/*font-size: .15rem;*/
+	height: 2.2rem;
+	overflow: hidden;
+	background: #fff;
+}
+
+
+.acitv-more{
+	float: left;
+	width: 23.2%;
+	height: 100%;
+	font-size: .2rem;
+	padding-top: .49rem;
+	text-align: center;
+	box-shadow: 3px 0px 8px #acacac;
+}
+.acitv-more p{
+	font-size: .2rem;
+	color: #575757;
+	margin-top: .06rem;
+
+}
+.acitv-more img{
+	width: .7rem;
+	vertical-align: middle;
+}
+.acitv-more span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #545454;
+	background: url('../images/rightspan.png') no-repeat left;
+	background-size: 100% 100%;
+}
+.chanpin{
+	float: left;
+	width: 76.7%;
+	height: 100%;
+
+}
+.chapin-img{
+	float: left;
+	width: 1.68rem;
+	display: table-cell;
+	line-height: 2.2rem;
+	height: 100%;
+	margin-left: .32rem;
+	display: table;
+	vertical-align: middle;
+}
+.chapin-img span{
+	background: yellow;
+	vertical-align: middle;
+
+}
+.chapin-img img{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+.chanpin .chanpin-name{
+	float: left;
+	height: 100%;
+	margin-left: .24rem;
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+}
+.chanpin-namea{
+	height: 1.68rem;
+	font-size: .17rem;
+}
+.chanpin .chanpin-name h4{
+	font-size: .25rem;
+	color: #9f9f9f;
+}
+.chanpin .chanpin-name .chanpin-tese span{
+	color: #cbaeb8;
+	font-size: .17rem;
+	margin-right: .1rem;
+
+}
+.chanpin .chanpin-name .chanpin-money{
+	margin-top: .5rem;
+}
+.chanpin .chanpin-name .chanpin-money:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.chanpin .chanpin-name .chanpin-money p{
+	font-size: .16rem;
+	color: #fd4443;
+	float: left;
+}
+.chanpin .chanpin-name .chanpin-money p span{
+	font-size: .24rem;
+}
+.chanpin .chanpin-name .chanpin-money a{
+	color: #fff;
+	font-size: .21rem;
+	background:#e40150;
+	display: inline-block;
+	height: .21rem;
+	line-height: .21rem;
+	padding:5px 12px;
+	border-radius: 3px;
+	margin-left: .2rem;
+}
+/*抢购*/
+.scare-buying{
+	margin-top: 9px;
+	background: #fff;
+	padding-bottom: 20px;
+}
+.scare{
+	line-height: .45rem;
+	padding-left: .23rem;
+	padding-right: .18rem;
+	font-size: .25rem;
+	color:#1d1d1d;
+	border-bottom: 1px solid #efefef;
+}
+.scare:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.scare .scare-time{
+	float: right;
+	font-size: .20rem;
+	color: #5a5a5a;
+}
+.scare .scare-time span{
+	display: inline;
+	padding-left: 2px;
+	padding-right: 2px;
+	background: black;
+	color: #fff;
+	border-radius:4px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.scare .scare-time .time-times{
+	float: right;
+	color: black;
+	margin-left: .13rem;
+}
+.buying{
+	margin:0 .23rem;
+
+}
+.buying li{
+	font-size: 12px;
+	padding-top: .33rem;
+	padding-bottom: .2rem;
+	border-bottom: 1px solid #cfcfcf;
+}
+.buying li:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.buying li .buying-img{
+	float: left;
+	width: 2.28rem;
+	height: 2.28rem;
+	background: black;
+	border-radius: 4px;
+}
+.buying  li .buying-letting{
+	float: left;
+	width: 4.2rem;
+	margin-left: .19rem;
+}
+.buying .buying-letting:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.buying .buying-letting .buying-text{
+	height: .58rem;
+	line-height: .29rem;
+	font-size: .22rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: box;
+	display: -webkit-box;
+	line-clamp:2;
+	-webkit-line-clamp:2;
+	word-break: break-all;
+	box-orient:vertical;
+	-webkit-box-orient:vertical;
+}
+.buying .buying-supplement {
+	margin-top: 5px;
+}
+.buying .buying-supplement  a{
+	display: inline-block;
+	height: .28rem;
+	line-height: .28rem;
+	font-size: .21rem;
+	padding:0px .19rem;
+	background: #ffe4e3;
+	color: #ff2838;
+	border-radius: 4px;
+}
+.buying-immediately{
+	margin-top: .6rem;
+}
+.buying-immediately:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.buying-immediately .immediately-number{
+	float: left;
+}
+.buying-immediately .immediately-number .now-number{
+	font-size: .28rem;
+	color: #e7112d;
+	font-weight: 700;
+}
+.buying-immediately .immediately-number .now-number i{
+	font-style: normal;
+	font-size: .18rem;
+	font-weight: 100;
+}
+.buying-immediately .immediately-number .origin-number{
+	color: #646464;
+	font-size: .18rem;
+	text-decoration: line-through;
+}
+.buying-immediately .now-buying{
+	float: right;
+}
+.buying-immediately .now-buying button{
+	border:none;
+	outline: none;
+	font-size: .18rem;
+	color: #fff;
+	padding:2px 5px;
+	background: #ea004e;
+	float: right;
+	border-radius: 4px;
+	transform: scale(0.90);
+}
+.buying-immediately .now-buying .now-buying-bai{
+	font-size: .14rem;
+	color: #6f6f6f;
+}
+.buying-immediately .now-buying .now-buying-bai:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.buying-immediately .now-buying .now-buying-bai .bai-number{
+	transform: scale(0.90);
+	float: left;
+}
+.buying-immediately .now-buying .progress-bar{
+	float: right;
+	margin:5px 0;
+	font-size: 0px;
+	width: .95rem;
+	height: 4px;
+	background: #fff;
+	border-radius: 3px;
+	border:1px solid #f177a0;
+}
+.buying-immediately .now-buying .progress-bar span{
+	display: inline-block;
+	width: 0%;
+	height: 100%;
+	background: #e3004f;
+	transition:width 1s;
+	-moz-transition:width 1s;
+	-o-transition:width 1s;
+	-webkit-transition:width 1s;
+}

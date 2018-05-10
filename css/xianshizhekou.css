@@ -1,0 +1,139 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background: #efefef;
+	font-size: .12rem;
+}
+.ding{
+	height: 3.66rem;
+}
+.ding img{
+	width: 100%;
+	height: 100%;
+}
+/*折扣商品*/
+.zhe-goods{
+
+}
+.zhe-goods ul{
+	padding:0px 8px;
+	margin-top: .26rem;
+}
+.zhe-goods ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.zhe-goods ul li{
+	float: left;
+	width: 50%;
+	margin-bottom: 10px;
+}
+.zhe-li-div{
+	
+	background: #fff;
+}
+li:nth-child(odd) .zhe-li-div{
+	margin-right: 4px;
+}
+li:nth-child(even) .zhe-li-div{
+	margin-left: 4px;
+}
+.zhe-goods li .zhe-li-div .zhe-div-img{
+	position: relative;
+	width: 100%;
+	height: 3.5rem;
+	overflow: hidden;
+}
+.zhe-goods li .zhe-li-div .zhe-div-img .zhe-div-imgpo{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+.zhe-goods li .zhe-li-div .zhe-div-img .imgo-fat{
+	font-size: .14rem;
+	height: .35rem;
+	line-height: .35rem;
+	padding-right: .15rem;
+	color: #fff;
+	background: red;
+	border-top-right-radius:.15rem;
+	border-bottom-right-radius:.15rem;
+}
+.zhe-goods li .zhe-li-div .zhe-div-img .imgo-fat i{
+	margin-left: 3px;
+	display: inline-block;
+	width: .25rem;
+	height: .25rem;
+	vertical-align: sub;
+	background: url('../images/Clocks.png') no-repeat left;
+	background-size: 100% 100%;
+	    margin-right: 3px;
+}
+.zhe-goods li .zhe-li-div .zhe-div-img .imgo-fat span{
+	/*vertical-align: middle;*/
+	line-height: .35rem;
+}
+.zhe-goods li .zhe-li-div .zhe-div-img img{
+	width: 100%;
+	height: 100%;
+}
+.zhe-goods .zhe-text-onep{
+	display: box;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	word-break: break-all;
+	font-size: .16rem;
+	color: #7b7b7b;
+}
+.zhe-li-text .zhe-money{
+	height: .32rem;
+	margin-top: .1rem;
+	padding-bottom: .23rem;
+}
+.zhe-li-text .zhe-money:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.zhe-li-text .zhe-money .zhe-money-left{
+	float: left;
+	color: #c0c0c0;
+	font-size: .15rem;
+	margin-left: 5px;
+}
+.zhe-li-text .zhe-money .zhe-money-left i{
+	display: inline-block;
+	width: .35rem;
+	height: .35rem;
+	margin-right: .1rem;
+}
+.zhe-li-text .zhe-money .zhe-money-left i img{
+	width: 100%;
+}
+.zhe-li-text .zhe-money .zhe-money-left span{
+	font-size: .3rem;
+	color: #b55052;
+}
+.zhe-li-text .zhe-money .zhe-money-right{
+	float: right;
+	margin-right: 5px; 	
+	margin-top:.1rem;
+	font-size: .17rem;
+	color: #cca7a4;
+	padding:0 2px;
+	border:1px solid #d1a6ad;
+	border-radius: 3px;
+}

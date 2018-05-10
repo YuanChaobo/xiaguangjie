@@ -9,6 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/swiper-4.2.2.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/iconfont.css">
 	<link rel="stylesheet" type="text/css" href="./css/xgjindex.css">
+
+	<meta name="viewport" content="width=device-width, 
+                                     initial-scale=1.0, 
+                                     maximum-scale=1.0, 
+                                     user-scalable=no">
 	<!--[if lt IE 9]>
          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -44,6 +49,7 @@
 			<!-- 搜索框 -->
 			<div class="search">
 				<div>
+					
 					<!-- 扫一扫 -->
 					<div class="search-sao">
 						<i class="iconfont icon-saomiao"></i>
@@ -107,7 +113,15 @@
 					<img class="tuijian-img" src="./images/xgjlogo.jpg">
 					<div class="row-tuijian-i">
 						<span class='row-label'>推荐</span>
-						<p>12345678913245679111111111111111111111111111111</p>
+						<div class="swiper-container cont-banner">
+						    <div class="swiper-wrapper">
+						        <div class="swiper-slide">
+									<p>12345678913245679111111111111111111111111111111</p>
+						        </div>
+						        <div class="swiper-slide">Slide 2</div>
+						        <div class="swiper-slide">Slide 3</div>
+						    </div>
+						</div>
 						<span class="row-spana">更多</span>
 					</div>
 				</div>
@@ -404,6 +418,14 @@
       spaceBetween: 20,
       slidesPerView: 'auto',
   
+    });
+      var swiper = new Swiper('.cont-banner', {
+      direction: 'vertical',
+      autoplay: true,
+      loop:true,
+      speed:2000,
+      simulateTouch:false,
+      allowTouchMove:false,
     });
   
 

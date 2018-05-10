@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>快速注册</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=no">
+		<!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+     <![endif]-->
+     <link rel="stylesheet" type="text/css" href="../css/kuaizhuce.css">
+</head>
+<body>
+	<script type="text/javascript">
+		window.onload = function(){
+		};
+		   getRem(720,100)
+		window.onresize = function(){
+		    getRem(720,100)
+		};
+		function getRem(pwidth,prem){
+		    var html = document.getElementsByTagName("html")[0];
+		    var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+		    html.style.fontSize = oWidth/pwidth*prem + "px";
+		}
+	</script>
+	<div id="body">
+		<header>
+			<div class="header">
+				<i><</i><span>快速注册</span>
+				
+			</div>
+		</header>
+		<!-- 手机号 验证码 -->
+		<div class="phone-yanzheng">
+			<!-- 手机号 -->
+			<div class="ty-p typ">
+				<label>国家地区<span>+86</span><i>V</i></label>
+				<input type="text" name="t1" placeholder="请输入手机号码">
+			</div>
+			<!-- 验证码 -->
+			<div class="ty-y typ">
+				<label>
+					<span>获取验证码</span>
+				</label>
+				<input type="text" name="t2" placeholder="请输入验证码">
+			</div>
+		</div>
+		<!-- 同意并注册 -->
+		<div class="but-all">
+			<button id="button">同意并注册</button>
+			<p>已阅读并同意以下协议<a href='##'>《虾逛街服务协议》</a><a href='##'>《隐私权政策》</a></p>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="../lib/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			// 倒计时时间
+			$('.ty-y').find('label').click(function foo(){
+				var tt=6
+				var th = $(this);
+				$(this).html('<span class="timec">'+tt+'</span>秒后重发');
+				var time = th.find('.timec').text();
+				function abc(){
+					time-=1;
+					th.find('.timec').text(time);
+					if(time<=0){
+						clearInterval(settime);
+						th.bind('click',foo);
+						th.html('<span>重新发送</span>');
+
+					}else{
+						th.unbind('click',foo);
+					}
+				}
+				var settime = setInterval(abc,1000);
+
+			})
+
+
+		})
+	</script>
+</html>

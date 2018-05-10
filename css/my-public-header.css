@@ -1,0 +1,61 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,li,dl,dt,dd{
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+#my-publicheader{
+
+}
+#my-publicheader h4{
+	height: .6rem;
+	line-height: .6rem;
+	text-align: center;
+	font-size: .25rem;
+	position: relative;
+	background: #eeeeee;
+	color: #0f0f0f;
+}
+#my-publicheader h4 i{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: .6rem;
+	text-align: center;
+	font-size: .35rem;
+	font-weight: 100;
+}
+#my-publicheader .my-nav:after{
+	content: '';
+	display: block;
+	clear:both;
+}
+#my-publicheader .my-nav{
+	box-sizing: border-box;
+}
+#my-publicheader .my-nav li{
+	float: left;
+	width: 16.6666666%;
+	height: .6rem;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: .2rem;
+	line-height: .6rem;
+}
+#my-publicheader .my-nav .my-nav-bottom span{
+	display: inline-block;
+	box-sizing: border-box;
+	border-bottom: 2px solid #e50112;
+}
+#my-publicheader .my-public-divide{
+	height: 0.07rem;
+	background: #eee;
+}

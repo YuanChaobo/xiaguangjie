@@ -1,0 +1,285 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background: #f5f5f5;
+}
+/*积分中心*/
+header{
+	height: 3.55rem;
+	background: url('../images/beijing.jpg') no-repeat left;
+	background-size: 100% 100%;
+}
+.jifenzhongxin{
+	font-size: .32rem;
+	padding:0px .24rem;
+	border-top: 1px solid transparent;
+}
+.jifenzhongxin h4{
+	height: .5rem;
+	font-size: .32rem;
+	color: #fff;
+	text-align: center;
+	margin-top: .6rem;
+}
+.jifenzhongxin h4 img{
+	width: .45rem;
+	float:right;
+}
+.jifenzhongxin .jifen-top-a:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.jifen-top-a{
+	margin-top: .35rem;
+}
+.jifen-top-a:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.jifen-top-a .top-a-img{
+	float: left;
+	width: 1rem;
+	height: 1rem;
+}
+.jifen-top-a .top-a-img img{
+	margin-top: .2rem;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.jifen-top-a .top-a-text{
+	float: left;
+	font-size: .24rem;
+	color: #fff;
+	width: 3.5rem;
+	margin-left: .2rem;
+}
+.jifen-top-a .top-a-text span{
+	font-size: .40rem;
+}
+.jifen-top-a .top-a-text i{
+	float: right;
+	width: .45rem;
+	height: .6rem;
+	background: url('../images/gift.png') no-repeat left ;
+	background-size: 100%;
+	margin-right: -5px;
+}
+.jifen-top-a .top-a-text .top-a-jincheng{
+	position: relative;
+	height: .4rem;
+	margin-top: .57rem;
+}
+.jifen-top-a .top-a-text .jincheng-backg{
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	background:#818fac;
+}
+.jifen-top-a .top-a-text .top-a-jincheng span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	font-size: 12px;
+	text-align: center;
+	background: #818fac;
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+}
+.jifen-top-a .top-a-text .span1{
+	left: -5%;
+}
+.jifen-top-a .top-a-text .span2{
+	left: 12.5555%;
+}
+.jifen-top-a .top-a-text .span3{
+	left: 29.66666%;
+}
+.jifen-top-a .top-a-text .span4{
+	left: 46%;
+}
+.jifen-top-a .top-a-text .span5{
+	left: 62.6666%;
+}
+.jifen-top-a .top-a-text .span6{
+	left: 79.33335%;
+}
+.jifen-top-a .top-a-text .span7{
+	left: 95%;
+}
+.jifen-top-a .span-yellow{
+	top: -7px !important;
+	background: red!important;
+	border:2px solid yellow;
+}
+.jifen-top-a .top-a-button{
+	float: right;
+	font-size: .30rem;
+	padding:.15rem .14rem;
+	background: #fff;
+	border-radius: .5rem;
+	color: #ff7576;
+	margin-top: .25rem;
+}
+
+/*赚积分*/
+.zhuan{
+	margin-top: .27rem;
+}
+.zhuan li{
+	font-size: 12px;
+	background: #fff;
+	position: relative;
+	height: .99rem;
+	line-height: .99rem;
+	padding:0px .23rem;
+	padding-right: .9rem;
+	border-bottom:1px solid #f9f9f9;
+}
+.zhuan li:last-child{
+	border:none;
+}
+.zhuan li a{
+	display: block;
+	color: #aaaaaa;
+}
+
+.zhuan li .li-dui-img{
+	width: .4rem;
+	float: right;
+	vertical-align: middle;
+	margin-top: .3rem;
+}
+.zhuan li span{
+	float: right;
+}
+/*积分购物*/
+.jf-gou{
+	position: relative;
+	height: .64rem;
+	width: 100%;
+	font-size: .16rem;
+	border:1px solid transparent;
+}
+.jf-gou .jf-gou-he{
+	height: 0px;
+	margin:.32rem 2.5rem;
+	border-bottom: 1px solid #d5d5d5;
+}
+.jf-gou h4{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-weight: 400;
+	background: #f5f5f5;
+	padding:0px 4px;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+}
+.jifen-list:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.jifen-list li{
+	font-size: 12px;
+	float: left;
+	width: 50%;
+	margin-bottom: 6px;
+}
+.jifen-list li .jifen-list-onediv{
+	background: #eeeeee;
+	padding:.1rem;
+
+}
+.jifen-list li .jifen-list-onediv .onediv-img{
+	width: 100%;
+	height: 3.49rem;
+	position: relative;
+}
+.jifen-list li .jifen-list-onediv .onediv-img img{
+	width: 100%;
+	height: 100%;
+}
+.jifen-list li .jifen-list-onediv .onediv-img .oed-img-fan{
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	color: #fff;
+	height: .3rem;
+	line-height: .3rem;
+	font-size: .12rem;
+	background: red;
+	padding-right: 10px;
+	padding-left: 3px;
+	border-top-right-radius: .2rem;
+	border-bottom-right-radius: .2rem;
+}
+
+.jifen-list li:nth-child(odd) .jifen-list-onediv{
+	margin-right: 3px;	
+}
+.jifen-list li:nth-child(even) .jifen-list-onediv{
+	margin-left: 3px;	
+}
+.jifen-list-onediv .xxx{
+	overflow:hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	word-break:break-all;
+	-webkit-word-break:break-all;
+	-moz-word-break:break-all;
+	-o-word-break:break-all;
+	display: box;
+	-webkit-box-orient:vertical;
+	line-clamp:2;
+	-webkit-line-clamp:2;
+	font-size: .15rem;
+	color: #bebebe;
+	height: .6rem;
+	margin-top:3px;
+	line-height: .3rem;
+
+}
+.jifen-list-onediv .jifen-yiqiang{
+	color: #cdcdcd;
+	font-size: .16rem;
+	line-height: .3rem;
+}
+.jifen-list-onediv .number-font{
+	height:.4rem;
+	margin-top: 5px;
+}
+.jifen-list-onediv .number-font .money-number{
+	color: #e86b6c;
+	font-size: .28rem;
+	display: inline-block;
+	vertical-align: bottom;
+	 font-family: "-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue","MIcrosoft YaHei",sans-serif!important;
+}
+.jifen-list-onediv .number-font .money-number i{
+	font-size: .24rem;
+	font-style: normal;
+}
+.jifen-list-onediv .number-font .jifendi{
+	border:1px solid #ecadb2;
+	color: #ecadb2;
+	padding:0px 3px;
+	vertical-align: top;
+}

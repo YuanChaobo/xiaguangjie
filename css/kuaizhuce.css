@@ -1,0 +1,110 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+}
+input{
+	border: none;
+	outline: none;
+}
+#body{
+	padding: 0 .5rem;
+}
+header{
+	font-size: .23rem;
+	height: .87rem;
+	line-height: .87rem;
+	margin-left: -0.5rem;
+	margin-right: -0.5rem;
+}
+.header{
+	text-align: center;
+	padding:0 0.5rem;
+	border-bottom: 1px solid #f2f2f2;
+}
+header i{
+	font-style: normal;
+	float: left;
+	font-size: .3rem;
+	width: .4rem;
+	text-align: left;
+}
+
+/*手机号 验证码*/
+.phone-yanzheng {
+	margin-top: .2rem;
+	border-top: 1px solid transparent;
+	box-sizing: border-box;
+}
+.phone-yanzheng .typ{
+	box-sizing: border-box;
+	font-size: .21rem;
+	color: #646464;
+	height: .45rem;
+	line-height: .43rem;
+	border:1px solid #e3e3e3;
+	border-radius: 1px;
+	margin-top: .68rem;
+}
+.phone-yanzheng .typ:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.phone-yanzheng .typ input::-webkit-input-placeholder{
+	color: #b9b9b9;
+}
+.phone-yanzheng .typ label{
+	display: inline-block;
+	width: 1.78rem;
+	text-align: center;
+}
+.phone-yanzheng .typ input{
+	margin-left: 3px;
+	font-size: .21rem;
+	width: 3.5rem;
+}
+.phone-yanzheng .ty-p label i{
+	font-style: normal;
+	margin-left: 3px;
+
+}
+.phone-yanzheng .ty-y label span{
+}
+.phone-yanzheng .ty-y label{
+	background: #dcdcdc;
+
+}
+/*提交按钮*/
+.but-all{
+	font-size: 12px;
+	margin-top: .5rem;
+}
+#button{
+	width: 100%;
+	height: .45rem;
+	background: red;
+	border:none;
+	text-align: center;
+	color: #fff;
+	font-size: .21rem;
+	border-radius: .225rem;
+	outline: none;
+}
+.but-all p{
+	text-align: center;
+	font-size: .21rem;
+	margin-left: -8px;
+	margin-right: -8px;
+	transform: scale(0.90);
+	color: #b7b7b7;
+	margin-top: .25rem;
+}
+.but-all p a{
+	color: #848484;
+
+}

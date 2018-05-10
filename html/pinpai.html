@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+<head>
+	<title>品牌</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=no">
+		<!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+     <![endif]-->
+     <link rel="stylesheet" type="text/css" href="../css/pinpai.css">
+</head>
+<body>
+	<script type="text/javascript">
+		window.onload = function(){
+		};
+		   getRem(720,100)
+		window.onresize = function(){
+		    getRem(720,100)
+		};
+		function getRem(pwidth,prem){
+		    var html = document.getElementsByTagName("html")[0];
+		    var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+		    html.style.fontSize = oWidth/pwidth*prem + "px";
+		}
+	</script>
+	<header>
+		<img src="../images/pinpaihaibao.jpg">
+	</header>
+	<!-- 品牌 -->
+	<div class="brand" id="brandr">
+		<span class="redcolor">海尔</span>
+		<span>索尼</span>
+		<span>TCL</span>
+		<span>小米</span>
+	</div>
+	<div class="brand-shop">
+		<ul class="haier">
+			<li>
+				<div class="brand-border">
+					<div class="brand-border-img">
+						
+					</div>
+					<div class="brand-border-text">
+						<p class="border-text-p">海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔</p>
+						<div class="money-text">
+							<p class="left-money">205<i>￥</i> <span>5折</span> </p>
+							<p class="right-trolley">已购2565件<i></i></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="brand-border">
+					<div class="brand-border-img">
+						
+					</div>
+					<div class="brand-border-text">
+						<p class="border-text-p">海尔海</p>
+						<div class="money-text">
+							<p class="left-money">205<i>￥</i> <span>5折</span> </p>
+							<p class="right-trolley">已购2565件<i></i></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="brand-border">
+					<div class="brand-border-img">
+						
+					</div>
+					<div class="brand-border-text">
+						<p class="border-text-p">海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔</p>
+						<div class="money-text">
+							<p class="left-money">205<i>￥</i> <span>5折</span> </p>
+							<p class="right-trolley">已购2565件<i></i></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="brand-border">
+					<div class="brand-border-img">
+						
+					</div>
+					<div class="brand-border-text">
+						<p class="border-text-p">海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔海尔</p>
+						<div class="money-text">
+							<p class="left-money">205<i>￥</i> <span>5折</span> </p>
+							<p class="right-trolley">已购2565件<i></i></p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+
+</body>
+<script type="text/javascript" src="../lib/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	(function(n){
+		if(n > 1) {
+			return n* arguments.callee(n-1);
+		}
+			return n;
+	})(10);
+
+	// var brand = document.getElementById('brandr');
+	// console.log(brand)
+	// brand.addEventListener('click',function(e){
+	// 	var e = e.target || window.event.target;
+	// 	e.classList.add('redcolor');
+	// })
+	$(function(){
+
+		$('#brandr').find('span').click(function(){
+			$(this).addClass('redcolor').siblings('span').removeClass('redcolor')
+		})
+	})
+
+</script>
+</html>

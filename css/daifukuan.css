@@ -1,0 +1,169 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+
+ul, li, dl, dt, dd{
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+
+.obligation .hollow-obligation{
+	font-size: 12px;
+}
+.obligation .hollow-obligation .obligation-kong{
+	text-align: center;
+	margin-top: 2.8rem;
+	margin-bottom: 2.4rem
+}
+.obligation .hollow-obligation .obligation-kong img{
+	width: 1.78rem;
+	height: 1.65rem;
+}
+.obligation .hollow-obligation .obligation-kong .no-obligation{
+	font-size: .23rem;
+	font-weight: 600;
+}
+.obligation .hollow-obligation .obligation-kong .norep-obligation{
+	font-size: .18rem;
+	transform: scale(0.9);
+}
+/*猜你喜欢*/
+.speculate-like .you-like-title{
+	height: .75rem;
+	line-height: .75rem;
+	position: relative;
+	background: #ededed;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+.speculate-like .you-like-title >div{
+	height: 0px;
+	font-size: 0px;
+	border-bottom: 1px solid #000000;
+	margin:0.375rem 1.86rem;
+}
+.speculate-like .you-like-title span{
+	font-size: .19rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #ededed;
+	padding:0 .1rem;
+}
+.speculate-like .you-like-title span i{
+	display: inline-block;
+	width: .26rem;
+	height: .26rem;
+	background: url('../images/like-you.jpg') no-repeat left;
+	background-size: 100% 100%;
+	vertical-align: middle;
+	margin-right: .1rem; 
+}
+
+.speculate-like ul{
+	padding:0 7px;
+}
+.speculate-like ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.speculate-like ul li{
+	float: left;
+	width: 50%;
+	font-size: 12px;
+	margin-bottom:.2rem;
+}
+.speculate-like ul li .child-div-li{
+	margin:2px;
+	border:1px solid #f3f3f3;
+}
+.speculate-like li .child-div-li .child-div-text{
+	border-top:1px solid #ececec;
+	padding:0 3px;
+	padding-top: .1rem;
+}
+.speculate-like ul li .child-div-img{
+	width: 100%;
+	height: 2.8rem;
+}
+.speculate-like ul li .child-div-img img{
+	width: 100%;
+	height: 100%;
+}
+.speculate-like ul li .child-div-li .child-div-lis{
+	font-size: .16rem;
+	line-height: .25rem;
+	height: .5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: box;
+	display: -webkit-box;
+	line-clamp:2;
+	-webkit-line-clamp:2;
+	box-orient:vertical;
+	-webkit-box-orient:vertical;
+	word-break: break-all;
+}
+.speculate-like li .child-div-li .child-money{
+	margin-top: .25rem;
+}
+.speculate-like li .child-div-li .child-money:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.speculate-like li .child-div-li .child-money .child-money-mumber{
+	float: left;
+	font-size: .3rem;
+	color: #c50000;
+}
+.speculate-like li .child-div-li .child-money .child-money-mumber span{
+	display: inline-block;
+	font-size: .32rem;
+	padding:0 .1rem;
+	height: .46rem;
+	border:1px solid #ca3440;
+	margin-left: -0.2rem;
+	vertical-align: text-bottom;
+	-webkit-transform: scale(0.65);
+	transform: scale(0.6);
+	position: relative;
+	left: 0px;
+	top: 3px;
+}
+.speculate-like li .child-div-li .child-money .child-money-mumber i{
+	font-size: .16rem;
+}
+.speculate-like li .child-div-li .child-money .child-money-cart{
+	float: right;
+	font-size: .4rem;
+	color: #888888;
+	line-height: .5rem;
+	transform: scale(0.5);
+	margin-top: -0.5rem;
+	margin-right: -0.58rem;
+}
+
+.speculate-like li .child-div-li .child-money .child-money-cart span{
+	display: inline-block;
+	vertical-align: middle;
+}
+/*32 28*/
+.speculate-like li .child-div-li .child-money .child-money-cart i{
+	display: inline-block;
+	width: .64rem;
+	height: .56rem;
+	background: url('../images/gou.jpg') no-repeat left;
+	background-size: 100% 100%;
+	vertical-align: middle;
+	margin-left: .1rem;
+}

@@ -1,0 +1,240 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 7.29rem;
+	text-align: center;
+	font-size: .5rem;
+	content: url('../images/headbak.jpg');
+	background-size: 100% 100%;
+}
+.commodity{
+	height: 1.35rem;
+	position: relative;
+}
+.commodity .commodity-shangpin{
+	position: absolute;
+	top: -25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 2.5rem;
+	padding:.18rem .97rem;
+	background: #fff;
+	font-size: .13rem;
+	color: #777777;
+	border-radius: 5px;
+	box-shadow: 0px 3px 3px #eee;
+}
+.commodity .commodity-shangpin .commodity-shangpin-top{
+	border-bottom: 1px solid #cfcfcf;
+}
+.commodity .commodity-shangpin ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.commodity .commodity-shangpin li{
+	text-align: center;
+	float: left;
+	width: 33.33333%;
+	box-sizing: border-box;
+	border-left: 1px solid #cfcfcf;
+
+
+}
+.commodity .commodity-shangpin li:first-child{
+	border-left: 0px;
+}
+.commodity .commodity-shangpin li:nth-child(4n){
+	border-left: 0px;
+}
+.commodity .commodity-shangpin li div{
+	width: 100%;
+	height: .65rem;
+	margin-top: .1rem;
+}
+.commodity .commodity-shangpin li img{
+	max-height:100%;
+	max-width: 100%;
+}
+.commodity .commodity-shangpin li p{
+	margin-bottom: .05rem;
+	transform: scale(0.90);
+}
+.haohuo{
+	background: #eee;
+}
+.haohuo .haohuo-tiqian{
+	position: relative;
+	border:1px solid transparent;
+	height: .6rem;
+	font-size: 12px;
+}
+.haohuo .haohuo-tiqian div{
+	font-size: 0px;
+	height: 0px;
+	overflow: hidden;
+	margin: .3rem 2.5rem;
+	border-bottom: 1px solid #535353;
+}
+.haohuo .haohuo-tiqian span{
+	font-size: .23rem;
+	color: #313131;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: #eee;
+	padding:0px 3px;
+}
+.haohuo-content{
+	margin-top: 4px;
+	padding-bottom: 12px;
+}
+.haohuo-content ul{
+	padding: 0 .32rem;
+	font-size: 12px;
+}
+.haohuo-content ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.haohuo-content li{
+	float: left;
+	width: 33.33333%
+}
+.haohuo-content li .content-all{
+	width: 1.63rem;
+	margin:0 auto;
+}
+.haohuo-content li .content-img{
+	width: 100%;
+	height: 1.63rem;
+	background: #fff;
+}
+.haohuo-content li .content-img img{
+	width: 100%;
+	height: 100%;
+}
+.haohuo-content li .content-surprise{
+	font-size: .18rem;
+	color: #484848;
+	margin-top: 5px;
+}
+.haohuo-content li .content-surprise span{
+	font-size: .25rem;
+	color: #333333;
+}
+.haohuo-content li .content-surprise span i{
+	font-size: .13rem;
+	display: inline-block;
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+}
+.haohuo-content li .content-daily{
+	font-size: .15rem;
+	color: #8b8b8b;
+	transform: scale(0.85);
+	margin-left: -5px;
+}
+.haohuo-content li .content-daily span{
+	text-decoration: line-through;
+}
+/*为你推荐*/
+.recommend{}
+.recommend h4{
+	height: .67rem;
+	position: relative;
+	border:1px solid transparent;
+}
+.recommend h4 div{
+	font-size: 0px;
+	height: 0px;
+	border-bottom: 1px solid #535353;
+	margin:.345rem 2.5rem;
+}
+.recommend h4 span{
+	font-size: .23rem;
+	color: #535353;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: #fff;
+	padding:0 4px;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+}
+.recommed-ul{
+	padding:0 .2rem;
+}
+.recommed-ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.recommed-ul li{
+	float: left;
+	width: 50%;
+	font-size: .2rem;
+	margin-bottom: .23rem;
+}
+.recommed-ul li .rec-da{
+	padding:0px .11rem;	
+}
+.recommed-ul li .rec-da .rec-da-img{
+	height: 3.32rem;
+	background: #e5e5e5;
+}
+.recommed-ul li .rec-da .rec-da-img img{
+	width: 100%;
+	height: 100%;
+}
+.recommed-ul li .rec-da .rec-da-text>p{
+	line-height: .42rem;
+	font-size: .12rem;
+	transform: scale(0.9);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.recommed-ul li .rec-da .rec-da-money:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.recommed-ul li .rec-da .rec-da-money .money-number{
+	font-size: .29rem;
+	float: left;
+}
+.recommed-ul li .rec-da .rec-da-money .money-number span{
+	display: inline-block;
+	font-size: 12px;
+	transform: scale(0.79);
+	vertical-align: bottom;
+}
+.recommed-ul li .rec-da .rec-da-money button{
+	float: right;
+	font-size: .15rem;
+	border:none;
+	outline:none;
+	background: #dcdcdc;
+	padding:0px 5px;
+}
